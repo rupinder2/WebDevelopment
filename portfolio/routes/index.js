@@ -15,13 +15,13 @@ router.get('/home', function(req, res, next) {
 router.get('/about', function(req, res, next) {
   res.render('index', 
   
-  { title: 'About'});
+  { title: 'About Me'});
 });
 /* GET Products page. */
-router.get('/products', function(req, res, next) {
+router.get('/projects', function(req, res, next) {
   res.render('index', 
   
-  { title: 'Products'});
+  { title: 'Projects'});
 });
 /* GET services page. */
 router.get('/services', function(req, res, next) {
@@ -34,6 +34,6 @@ router.get('/services', function(req, res, next) {
 router.get('/contact', function(req, res, next) {
   res.render('index', 
   
-  { title: 'Contact'});
+  { title: 'Contact Me'});
 });
 module.exports = router;
